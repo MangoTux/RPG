@@ -1,0 +1,243 @@
+body
+{
+	background-color:white;
+	font-family: "Helvetica";
+	font-size: 14px;
+	text-align: center;
+	padding:0;
+	margin:0;
+	color:#161616;
+	background: white url('/images/background.jpg') repeat-y top center;
+}
+
+html, body
+{
+	height:100%;
+	min-height:100%;
+}
+
+#mainBox
+{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	background-color:white;
+	text-align:left;
+	min-height:1200px;
+}
+a
+{
+	text-decoration:none;
+	color:#B35600;
+}
+a:link
+{
+	color:#B35600;
+}
+a:hover
+{
+	color:B35600;
+}
+a:active
+{
+	color:#B35600;
+}
+
+img
+{
+	padding:0;
+	margin:0;
+	border:none;
+}
+
+padded
+{
+	padding:10px;
+}
+
+#topBar
+{
+	width:auto;
+	height:100px;
+	margin:0;
+	background:#131313;
+}
+#topBar .item
+{
+	font-size:16px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left:2px;
+	margin-right:2px;
+	height:50px;
+	line-height:50px;
+	vertical-align:center;
+	text-align:left;
+	float:left;
+	background:rgba(255, 134, 0, 0);
+	transition: background .1s ease-in-out;
+	-moz-transition:background .1s ease-in-out;
+	-webkit-transition: background .1s ease-in-out;
+	color:white;
+}
+#topBar .item:hover
+{
+	font-size:16px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left:2px;
+	margin-right:2px;
+	height:50px;
+	line-height:50px;
+	vertical-align:center;
+	text-align:left;
+	float:left;
+	background:rgba(255, 134, 0, 1);
+	transition: background .1s ease-in-out;
+	-moz-transition:background .1s ease-in-out;
+	-webkit-transition: background .1s ease-in-out;
+	cursor:default
+}
+#topBar .active
+{
+	color:#131313;
+	font-size:16px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left:2px;
+	margin-right:2px;
+	height:50px;
+	line-height:50px;
+	vertical-align:center;
+	text-align:left;
+	float:left;
+	background:rgba(255, 134, 0, 1);
+	cursor:default
+}
+#topBar .item2
+{
+	color:#FFFFFF;
+	font-size:12px;
+	padding-left:20px;
+	padding-right:0px;
+	margin-left:2px;
+	margin-right:2px;
+	height:50px;
+	line-height:50px;
+	vertical-align:center;
+	text-align:left;
+	float:left;
+}
+#topBar .active2
+{
+	color:#FF8600;
+	font-size:12px;
+	padding-left:20px;
+	padding-right:0px;
+	margin-left:2px;
+	margin-right:2px;
+	height:50px;
+	line-height:50px;
+	vertical-align:center;
+	text-align:left;
+	float:left;
+	cursor:default;
+}
+#topBar .item2:hover
+{
+	color:#FF8600;
+}
+
+#homeButton
+{
+	margin:0;
+	padding:0;
+	float:left;
+	width:100px;
+	height:100px;
+	background:#131313 url('/images/mango.png');
+	opacity:0.8;
+	transition: opacity .4s ease-in-out;
+	-moz-transition: opacity .4s ease-in-out;
+	-webkit-transition: opacity .4s ease-in-out;
+}
+#homeButton:hover
+{
+	opacity: 1.0;
+	transition: opacity .4s ease-in-out;
+	-moz-transition: opacity .4s ease-in-out;
+	-webkit-transition: opacity .4s ease-in-out;
+}
+
+.content
+{
+	width:880px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	min-height:100%;
+	padding:10px;
+	font-size:15px;
+}
+.content a
+{
+	color:black;
+	text-decoration:underline;
+}
+#topBarContent
+{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#topBarMenu
+{
+	float:left;
+}
+img.small
+{
+	width:300px;
+	height:auto;
+	border:none;
+	float:left;
+}
+img.medium
+{
+	width:450px;
+	height:auto;
+	border:none;
+	float:left;
+}
+img.big
+{
+	width:880px;
+	height:auto;
+	border:none;
+	clear:both;
+}
+
+.caption
+{
+	background-color:#262626;
+	color:white;
+	min-height:42px;
+	line-height:42px;
+	font-size:32px;
+	padding:10px;
+	vertical-align:middle;
+	width:880px;
+}
+
+#footer
+{
+	clear:both;	
+	color:rgba(255, 255, 255, .5);
+	background-color:#131313;
+	padding:8px;
+	margin:0;		
+	position: relative;
+	bottom:0;
+	width:auto;
+	height:16px;
+}

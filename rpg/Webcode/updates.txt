@@ -1,0 +1,14 @@
+<h3>Updates</h3>
+<p>Site Layout</br>
+Animation thingy</br></p>
+<h3>Planned Updates</h3>
+<p>Implementing text interface</br>
+Player Creation</br>
+Random map generation</br>
+Enemies</br>
+Quests</br>
+Fighting</br>
+XP/Gold/Shops</br>
+Progress saves</br>
+Leaderboards</br>
+A functioning game.</br></p>

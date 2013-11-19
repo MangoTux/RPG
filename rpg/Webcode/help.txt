@@ -1,0 +1,5 @@
+<h3>Commands</h3>
+<p>Go [North | South | East | West] - Go in a direction</br>
+Rest                             - Rest and recover HP</br>
+Save                             - Save progress</br>
+Stats                            - Current character info</br></p>
